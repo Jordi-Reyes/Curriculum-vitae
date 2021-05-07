@@ -9,27 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Curriculum vitae</title>
-    <script src="./js/codigo.js"></script>
     <link href="./fontawesome/css/all.css" rel="stylesheet">
+    <script src="./js/codigo (1).js"></script>
 </head>
 
 <body>
-    <div class="row" id="section-0">
-        <div class="column-1">
-            <h1></h1>
-        </div>
-    </div>
 
-    <div class="row" id="section-1">
-        <div class="column-1">
+    <div class="row" id="header">
+        <div class="column-1 flex">
             <h2>Curriculum vitae</h2>
+        </div>
+
+        <div class="column-1 flex">
             <i class="fas fa-id-card"></i>
         </div>
+
     </div>
 
     <!--Menú de navegación-->
     <ul>
-        <li><a href="#section-1">Inicio</a></li>
+        <li><a href="#header">Inicio</a></li>
         <li><a href="#section-2">¿Quién soy?</a></li>
         <li><a href="#section-3">Vídeo</a></li>
         <li><a href="#section-4">Contacto</a></li>
@@ -58,7 +57,7 @@
         <div class="column-1">
             <h1>Vídeo presentacion</h1>
         </div>
-        <div class="column1">
+        <div class="column-1">
             <iframe width="956" height="538" src="https://www.youtube.com/embed/0yeXvs5VoME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
@@ -152,7 +151,19 @@
             <h2>De momento no he tendio experiencia laboral</h2>
         </div>
         <div class="column-2">
-            <img src="./img/software.jpg" alt="imagen telefono">
+            <img src="./img/work-experience-seal-watermark-corroded-texture-red-vector-rubber-print-work-experience-text-corroded-texture-text-130924922-removebg-preview.png" alt="imagen telefono">
+        </div>
+    </div>
+
+    <div id="section-11">
+        <div class="column-1">
+            <h1>Idioma</h1>
+        </div>
+        <div>
+            <select name="language" id="language" onchange="language()">
+                <option value="ES" selected>Español</option>
+                <option value="EN">English</option>
+            </select>
         </div>
     </div>
 
